@@ -1,0 +1,19 @@
+{
+   "extends": "../tslint.json",
+   "rules": {
+      "directive-selector": [
+         true,
+         "attribute",
+         "app",
+         "camelCase"
+      ],
+      "component-selector": false,
+      "use-host-property-decorator": false,
+      "no-shadowed-variable": false,
+      "max-line-length": false,
+      "radix": false,
+      "curly": false,
+      "forin": false,
+      "triple-equals": false
+   }
+}

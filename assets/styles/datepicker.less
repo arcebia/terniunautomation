@@ -1,0 +1,129 @@
+.daterangepicker.dropdown-menu {
+    max-height: none;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover,
+.daterangepicker td.end-date {
+    background-color: @orange-ternium !important;
+    border-color: @orange-ternium;
+}
+
+.daterangepicker .in-range {
+    background: rgba(245, 133, 73, 0.28) !important;
+}
+
+.daterangepicker td.off, .daterangepicker td.off.end-date, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date {
+    background-color: #fff !important;
+    border-color: transparent;
+    color: #999;
+}
+
+.daterangepicker .input-mini {
+    border-radius: 0 !important;
+    padding-left: 10px;
+}
+
+.daterangepicker .input-mini.active {
+    border-color: @orange-ternium !important;
+}
+
+.daterangepicker td, .daterangepicker th {
+    height: 30px !important;
+}
+
+i.glyphicon-calendar {
+    display: none;
+}
+
+input.date-picker {
+    width: 215px;
+}
+
+input.date-picker.time-picker {
+    width: 290px;
+}
+
+input.date-picker.seconds-picker {
+    width: 375px;
+}
+
+input.date-picker.single-date {
+    width: 130px;
+}
+
+input.date-picker.single-time-picker {
+    width: 205px;
+}
+
+.ngb-dp-day {
+    text-align: center;
+    height: 35px !important;
+    width: 14.28% !important;
+    .btn {
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 0;
+    }
+}
+
+.ngb-dp-month  {
+    width: 100%;
+}
+
+.ngb-dp-week {
+    height: 35px;
+}
+
+.ngb-dp-weekday {
+    width: 14.28% !important;
+    height: 21px !important;
+    font-style: normal;
+    color: @dark-gray-ternium !important;
+    font-weight: bold;
+}
+
+.ngb-dp-month-name {
+    font-size: 12px !important;
+}
+
+.ngb-dp-navigation-chevron {
+    color: @dark-gray-ternium !important;
+    font-size: 12px;
+}
+
+.range_inputs {
+    .applyBtn {
+        background-color: @orange-ternium !important;
+        border-color: @orange-ternium !important;
+    }
+}
+
+.inverted {
+    td& {
+        padding: 0;
+    }
+   & input {
+        background-color: transparent;
+        border: 0;
+        color: #fff;
+        width: 120px;
+        text-align: center;
+        &:focus {
+            background-color: transparent;
+            border: 0;
+            color: #fff;
+        }
+    }
+    & .btn-range {
+        position: absolute;
+        top: 6px;
+        right: -10px;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+.icon-label {
+    display: inline;
+}
